@@ -10,3 +10,6 @@ export default {
   plugins: [],
 }
 
+// Scanning Content: Tailwind CSS will scan the specified files (index.html and files in src directory) for class names.
+// Theme Customization: No additional theme customizations are specified.
+// Plugins: No plugins are included.
