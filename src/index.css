@@ -16,7 +16,8 @@
 * {
   scroll-behavior: smooth;
 }
-
+/* 
+This uses Tailwind’s @layer base directive to customize the base layer for the body element: */
 @layer base {
   body {
     @apply font-sans bg-n-8 text-n-1 text-base;
@@ -91,3 +92,13 @@
   @apply bg-blue-500 text-white;
 } */
 
+
+/* 
+This index.css file:
+
+Imports custom fonts from Google Fonts.
+Includes Tailwind's base, component, and utility styles.
+Sets custom CSS properties for fonts and a dark color scheme.
+Applies smooth scrolling globally.
+Customizes the base styling for the body element using Tailwind's utilities.
+Defines additional custom rotate utilities to allow for a wide range of rotation angles using Tailwind's @apply directive. */
